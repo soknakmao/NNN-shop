@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: red;
+    
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/6193311_3150060.jpg);
+}
+.form-login{
+    background-color: aliceblue;
+    height:400px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.first-side{
+    width: 50%;
+}
+.first-side h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #65B597;
+}
+
+.first-side h1{
+    color: white;
+}
+.login{
+    margin-bottom: 17px;
+   
+    
+}
+form{
+    padding: 30px;
+}
+.login input{
+    background-color:#E0E0E0 ;
+    border-radius: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    
+}
+
+.second-side{
+    background-color: #65B597;
+    width: 50%;
+}
+.btn{
+    background-color:#65B597 ;
+    border-radius: 50px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    margin-top: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    opacity: 0,8;
+}
+span{
+  text-align: right;
+  
+}
+.forgot{
+    
+    display: inline;
+    margin-right: 50px;
+}
+/*second-slide*/
+
+.second-side{
+    background-color: #65B597;
+}
+.sign-up{ 
+    margin: 0;
+    text-align: center;
+    padding: 30% 0;
+    
+}
+.sign-up h1,p {
+    margin-bottom: 20px;
+    color: white;
+}
+.sign-up p{
+    font-size: 17px;
+}
+#btn1{
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right:20px ;
+    color: white;
+    cursor: pointer;
+}
